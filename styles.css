@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* height: 600vh; */
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #270082;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 1;
+}
+nav>.logo{
+    font-size: 40px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav>.nav-link>ul{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+nav>.nav-link>ul>li{
+    list-style-type: none;
+}
+nav>.nav-link>ul>li>a{
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+nav>.nav-link>ul>li>a:hover{
+    text-decoration:underline;
+    color: aqua;
+    padding-bottom: 5px;
+}
+
+/* HOME SECTION START HERE */
+
+#home{
+    width: 100%;
+    height: 960px;
+    background-color: aqua;
+    background-image: url(Images/hero_image.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home>h1{
+    font-size: 70px;
+    font-family:Verdana, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+#home>p{
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* MUSIC SECTION START HERE */
+
+#music{
+    width: 100%;
+    height: 1500px;
+    background-color: #beb4d4;
+}
+#music>#box1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #542faa;
+    padding-top: 50px;
+}
+#music>#box1>h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#music>#box1>h4{
+    width: 65%;
+    padding-bottom: 30px;
+    color: rgb(230, 233, 235);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#music>#box1>button{
+    width: 200px;
+    height: 30px;
+    background-color: gold;
+    border: 2px solid cornflowerblue;
+    font-size: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family:cursive;
+}
+#music>#box1>button:hover{
+    background-color: rgb(133, 129, 111);
+    border: 2px solid rgb(72, 80, 95);
+}
+#music>#box1>p{
+    font-size: 20px;
+    color: rgb(227, 233, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#music>#box2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(235, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#music>#box2>img{
+    width: 1100px;
+    height: 800px;
+    position: relative;
+    top: -300px;
+}
+#music>#box3{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(7, 22, 34);
+    background-color:rgb(235, 240, 240);
+}
+#music>#box3>h3{
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#music>#box3>p{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#music>#box3>button{
+    width: 100px;
+    height: 30px;
+    background-color: #542faa;
+    border: 0px solid;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+#music>#box3>button:hover{
+    background-color: #282433;
+}
+
+/* VIDEO SECTION START HERE */
+
+#video{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(177, 106, 13);
+    margin-top: 600px;
+    background-image: url(Images/video.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#video>h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#video>p{
+    width: 60%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* VIDEO SECTION START HERE */
+
+#gift-card{
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#gift-card>#div1{
+    width: 480px;
+    height: 320px;
+    background-image: url(Images/gift_card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#gift-card>#div2{
+    width: 700px;
+    height: 300px;
+}
+#gift-card>#div2>h3{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+#gift-card>#div2>p{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+#gift-card>#div2>button{
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(103, 211, 103);
+    border: 0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gift-card>#div2>button:hover{
+    background-color: rgb(164, 233, 233);
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #270082;
+    
+}
+footer>.abouts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+}
+footer>.abouts>div>h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+footer>.abouts>div>ul{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer>.abouts>div>ul>li{
+    list-style-type: none;
+}
+footer>.foot{
+    background-color: #4b16c9;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
